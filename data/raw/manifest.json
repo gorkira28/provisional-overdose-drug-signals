@@ -1,0 +1,19 @@
+{
+  "retrieved_at_utc": "2026-10-20T12:04:49.714537+00:00",
+  "snapshot_date": "2026-10-20",
+  "dataset_id": "8hzs-zshh",
+  "source_url": "https://data.cdc.gov/resource/8hzs-zshh.csv?$limit=50000",
+  "metadata_url": "https://data.cdc.gov/api/views/8hzs-zshh",
+  "files": [
+    {
+      "path": "data/raw/cdc_drug_involved_counts_2026-10-20.csv",
+      "bytes": 1310668,
+      "sha256": "e9dc97243a0c26c2a989ad70ffea15a8b679404a2472fac53e218d057706c735"
+    },
+    {
+      "path": "data/raw/cdc_dataset_metadata_2026-10-20.json",
+      "bytes": 19091,
+      "sha256": "c4b575ea1b24da5baa595d65308c01d594a6b851a2de074c1db04678fcc7d674"
+    }
+  ]
+}

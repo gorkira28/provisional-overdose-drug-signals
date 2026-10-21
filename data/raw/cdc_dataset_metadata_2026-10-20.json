@@ -1,0 +1,700 @@
+{
+  "id": "8hzs-zshh",
+  "name": "Provisional drug overdose death counts for specific drugs",
+  "assetType": "dataset",
+  "attribution": "National Center for Health Statistics",
+  "attributionLink": "https://www.cdc.gov/nchs/nvss/vsrr/prov-drug-involved-mortality/prov-drug-involved-mortality.htm",
+  "averageRating": 0,
+  "category": "National Center for Health Statistics",
+  "createdAt": 1708717832,
+  "description": "This data presents counts of provisional drug overdose deaths by selected drugs and U.S. Department of Health and Human Services (HHS) public health regions, based on provisional mortality data from the National Vital Statistics System. This data is limited to drug overdose deaths with an underlying cause of death assigned to International Statistical Classification of Diseases, 10th Revision (ICD-10) code numbers X40-X44 (unintentional), X60-X64 (suicide), X85 (homicide), or Y10-Y14 (undetermined intent). Specific drugs were identified using methods for searching literal text from death certificates. \n\nThe provisional data are based on a current flow of mortality data and include reported 12 month-ending provisional counts of drug overdose deaths by jurisdiction of occurrence and specified drug. Provisional drug overdose death counts presented on this page are for \u201c12-month ending periods,\u201d defined as the number of deaths occurring in the 12-month period ending in the month indicated. For example, the 12-month ending period in June 2022 would include deaths occurring from July 1, 2021, through June 30, 2022. Evaluation of trends over time should compare estimates from year to year (June 2021 and June 2022), rather than month to month, to avoid overlapping time periods. It is important to note that the data represent counts of deaths, and not mortality ratios or rates, which are the standard measure used to compare groups, and therefore should not be used to determine populations at disproportionate risk of drug overdose death.",
+  "diciBackend": false,
+  "displayType": "table",
+  "downloadCount": 12877,
+  "hideFromCatalog": false,
+  "hideFromDataJson": false,
+  "licenseId": "USGOV_WORKS",
+  "locked": false,
+  "newBackend": true,
+  "numberOfComments": 0,
+  "oid": 42112341,
+  "provenance": "official",
+  "publicationAppendEnabled": false,
+  "publicationDate": 1777986692,
+  "publicationGroup": 19463488,
+  "publicationStage": "published",
+  "rowsUpdatedAt": 1784124436,
+  "rowsUpdatedBy": "8ker-cpx6",
+  "tableId": 20366452,
+  "totalTimesRated": 0,
+  "viewCount": 11239,
+  "viewLastModified": 1790116613,
+  "viewType": "tabular",
+  "approvals": [
+    {
+      "reviewedAt": 1713185232,
+      "reviewedAutomatically": true,
+      "state": "approved",
+      "submissionId": 7457293,
+      "submissionObject": "public_audience_request",
+      "submissionOutcome": "change_audience",
+      "submittedAt": 1713185232,
+      "targetAudience": "public",
+      "workflowId": 2100,
+      "submissionDetails": {
+        "permissionType": "READ"
+      },
+      "submissionOutcomeApplication": {
+        "endedAt": 1713185232,
+        "failureCount": 0,
+        "startedAt": 1713185232,
+        "status": "success"
+      },
+      "submitter": {
+        "id": "6sxa-reak",
+        "displayName": "NCHS"
+      }
+    }
+  ],
+  "clientContext": {
+    "clientContextVariables": [],
+    "inheritedVariables": {}
+  },
+  "columns": [
+    {
+      "id": 631962120,
+      "name": "data_as_of",
+      "dataTypeName": "calendar_date",
+      "description": "Date of analysis",
+      "fieldName": "data_as_of",
+      "position": 1,
+      "renderTypeName": "calendar_date",
+      "tableColumnId": 152205317,
+      "cachedContents": {
+        "non_null": "11088",
+        "largest": "2026-07-05T00:00:00.000",
+        "null": "0",
+        "top": [
+          {
+            "item": "2026-07-05T00:00:00.000",
+            "count": "11088"
+          }
+        ],
+        "smallest": "2026-07-05T00:00:00.000",
+        "count": "11088",
+        "cardinality": "11088"
+      },
+      "format": {
+        "view": "date"
+      }
+    },
+    {
+      "id": 631962121,
+      "name": "death_year",
+      "dataTypeName": "text",
+      "description": "12 month-ending year",
+      "fieldName": "death_year",
+      "position": 2,
+      "renderTypeName": "text",
+      "tableColumnId": 152205327,
+      "cachedContents": {
+        "non_null": "11088",
+        "largest": "2025",
+        "null": "0",
+        "top": [
+          {
+            "item": "2023",
+            "count": "1584"
+          },
+          {
+            "item": "2022",
+            "count": "1584"
+          },
+          {
+            "item": "2024",
+            "count": "1584"
+          },
+          {
+            "item": "2020",
+            "count": "1584"
+          },
+          {
+            "item": "2025",
+            "count": "1584"
+          },
+          {
+            "item": "2019",
+            "count": "1584"
+          },
+          {
+            "item": "2021",
+            "count": "1584"
+          }
+        ],
+        "smallest": "2019",
+        "count": "11088",
+        "cardinality": "11088"
+      },
+      "format": {
+        "view": "date_y",
+        "decimalSeparator": ".",
+        "groupSeparator": ","
+      }
+    },
+    {
+      "id": 631962129,
+      "name": "death_month",
+      "dataTypeName": "text",
+      "description": "12 month-ending month",
+      "fieldName": "death_month",
+      "position": 3,
+      "renderTypeName": "text",
+      "tableColumnId": 167408471,
+      "cachedContents": {
+        "non_null": "11088",
+        "largest": "September",
+        "null": "0",
+        "top": [
+          {
+            "item": "November",
+            "count": "924"
+          },
+          {
+            "item": "June",
+            "count": "924"
+          },
+          {
+            "item": "August",
+            "count": "924"
+          },
+          {
+            "item": "March",
+            "count": "924"
+          },
+          {
+            "item": "December",
+            "count": "924"
+          },
+          {
+            "item": "July",
+            "count": "924"
+          },
+          {
+            "item": "January",
+            "count": "924"
+          },
+          {
+            "item": "April",
+            "count": "924"
+          },
+          {
+            "item": "May",
+            "count": "924"
+          },
+          {
+            "item": "February",
+            "count": "924"
+          },
+          {
+            "item": "September",
+            "count": "924"
+          },
+          {
+            "item": "October",
+            "count": "924"
+          }
+        ],
+        "smallest": "April",
+        "count": "11088",
+        "cardinality": "11088"
+      },
+      "format": {
+        "decimalSeparator": ".",
+        "groupSeparator": ","
+      }
+    },
+    {
+      "id": 631962123,
+      "name": "jurisdiction_occurrence",
+      "dataTypeName": "text",
+      "description": "Jurisdiction of occurrence",
+      "fieldName": "jurisdiction_occurrence",
+      "position": 4,
+      "renderTypeName": "text",
+      "tableColumnId": 152205314,
+      "cachedContents": {
+        "non_null": "11088",
+        "largest": "United States",
+        "null": "0",
+        "top": [
+          {
+            "item": "Region 3",
+            "count": "1008"
+          },
+          {
+            "item": "Region 9",
+            "count": "1008"
+          },
+          {
+            "item": "Region 8",
+            "count": "1008"
+          },
+          {
+            "item": "Region 6",
+            "count": "1008"
+          },
+          {
+            "item": "Region 1",
+            "count": "1008"
+          },
+          {
+            "item": "United States",
+            "count": "1008"
+          },
+          {
+            "item": "Region 2",
+            "count": "1008"
+          },
+          {
+            "item": "Region 4",
+            "count": "1008"
+          },
+          {
+            "item": "Region 10",
+            "count": "1008"
+          },
+          {
+            "item": "Region 7",
+            "count": "1008"
+          },
+          {
+            "item": "Region 5",
+            "count": "1008"
+          }
+        ],
+        "smallest": "Region 1",
+        "count": "11088",
+        "cardinality": "11088"
+      },
+      "format": {}
+    },
+    {
+      "id": 631962124,
+      "name": "drug_involved",
+      "dataTypeName": "text",
+      "description": "Name of drug",
+      "fieldName": "drug_involved",
+      "position": 5,
+      "renderTypeName": "text",
+      "tableColumnId": 152205313,
+      "cachedContents": {
+        "non_null": "11088",
+        "largest": "Xylazine",
+        "null": "0",
+        "top": [
+          {
+            "item": "Fentanyl",
+            "count": "924"
+          },
+          {
+            "item": "MDMA",
+            "count": "924"
+          },
+          {
+            "item": "Ketamine",
+            "count": "924"
+          },
+          {
+            "item": "Xylazine",
+            "count": "924"
+          },
+          {
+            "item": "Bromazolam",
+            "count": "924"
+          },
+          {
+            "item": "Mitragynine",
+            "count": "924"
+          },
+          {
+            "item": "Cocaine",
+            "count": "924"
+          },
+          {
+            "item": "Heroin",
+            "count": "924"
+          },
+          {
+            "item": "Gabapentin",
+            "count": "924"
+          },
+          {
+            "item": "Methamphetamine",
+            "count": "924"
+          },
+          {
+            "item": "Oxycodone",
+            "count": "924"
+          },
+          {
+            "item": "Amphetamine",
+            "count": "924"
+          }
+        ],
+        "smallest": "Amphetamine",
+        "count": "11088",
+        "cardinality": "11088"
+      },
+      "format": {}
+    },
+    {
+      "id": 631962125,
+      "name": "time_period",
+      "dataTypeName": "text",
+      "description": "Time period of reporting",
+      "fieldName": "time_period",
+      "position": 6,
+      "renderTypeName": "text",
+      "tableColumnId": 152205312,
+      "cachedContents": {
+        "non_null": "11088",
+        "largest": "12 month-ending",
+        "null": "0",
+        "top": [
+          {
+            "item": "12 month-ending",
+            "count": "11088"
+          }
+        ],
+        "smallest": "12 month-ending",
+        "count": "11088",
+        "cardinality": "11088"
+      },
+      "format": {}
+    },
+    {
+      "id": 631962126,
+      "name": "month_ending_date",
+      "dataTypeName": "calendar_date",
+      "description": "12 month-ending date",
+      "fieldName": "month_ending_date",
+      "position": 7,
+      "renderTypeName": "calendar_date",
+      "tableColumnId": 152205311,
+      "cachedContents": {
+        "non_null": "11088",
+        "largest": "2025-12-31T00:00:00.000",
+        "null": "0",
+        "top": [
+          {
+            "item": "2023-12-31T00:00:00.000",
+            "count": "132"
+          },
+          {
+            "item": "2023-03-31T00:00:00.000",
+            "count": "132"
+          },
+          {
+            "item": "2020-08-31T00:00:00.000",
+            "count": "132"
+          },
+          {
+            "item": "2023-11-30T00:00:00.000",
+            "count": "132"
+          },
+          {
+            "item": "2020-06-30T00:00:00.000",
+            "count": "132"
+          },
+          {
+            "item": "2025-04-30T00:00:00.000",
+            "count": "132"
+          },
+          {
+            "item": "2021-06-30T00:00:00.000",
+            "count": "132"
+          },
+          {
+            "item": "2022-09-30T00:00:00.000",
+            "count": "132"
+          },
+          {
+            "item": "2022-07-31T00:00:00.000",
+            "count": "132"
+          },
+          {
+            "item": "2022-03-31T00:00:00.000",
+            "count": "132"
+          },
+          {
+            "item": "2021-08-31T00:00:00.000",
+            "count": "132"
+          },
+          {
+            "item": "2021-04-30T00:00:00.000",
+            "count": "132"
+          },
+          {
+            "item": "2025-06-30T00:00:00.000",
+            "count": "132"
+          },
+          {
+            "item": "2024-05-31T00:00:00.000",
+            "count": "132"
+          },
+          {
+            "item": "2024-06-30T00:00:00.000",
+            "count": "132"
+          },
+          {
+            "item": "2020-02-29T00:00:00.000",
+            "count": "132"
+          },
+          {
+            "item": "2020-01-31T00:00:00.000",
+            "count": "132"
+          },
+          {
+            "item": "2023-01-31T00:00:00.000",
+            "count": "132"
+          },
+          {
+            "item": "2024-11-30T00:00:00.000",
+            "count": "132"
+          },
+          {
+            "item": "2021-05-31T00:00:00.000",
+            "count": "132"
+          }
+        ],
+        "smallest": "2019-01-31T00:00:00.000",
+        "count": "11088",
+        "cardinality": "11088"
+      },
+      "format": {
+        "view": "date"
+      }
+    },
+    {
+      "id": 631962127,
+      "name": "drug_overdose_deaths",
+      "dataTypeName": "number",
+      "description": "Number of deaths during 12 month-ending period",
+      "fieldName": "drug_overdose_deaths",
+      "position": 8,
+      "renderTypeName": "number",
+      "tableColumnId": 152205310,
+      "cachedContents": {
+        "non_null": "10625",
+        "largest": "76747",
+        "null": "463",
+        "top": [
+          {
+            "item": "0",
+            "count": "317"
+          },
+          {
+            "item": "19",
+            "count": "79"
+          },
+          {
+            "item": "18",
+            "count": "71"
+          },
+          {
+            "item": "17",
+            "count": "64"
+          },
+          {
+            "item": "12",
+            "count": "63"
+          },
+          {
+            "item": "15",
+            "count": "60"
+          },
+          {
+            "item": "16",
+            "count": "56"
+          },
+          {
+            "item": "11",
+            "count": "54"
+          },
+          {
+            "item": "10",
+            "count": "52"
+          },
+          {
+            "item": "14",
+            "count": "51"
+          },
+          {
+            "item": "22",
+            "count": "50"
+          },
+          {
+            "item": "20",
+            "count": "46"
+          },
+          {
+            "item": "26",
+            "count": "46"
+          },
+          {
+            "item": "13",
+            "count": "43"
+          },
+          {
+            "item": "21",
+            "count": "43"
+          },
+          {
+            "item": "24",
+            "count": "42"
+          },
+          {
+            "item": "31",
+            "count": "41"
+          },
+          {
+            "item": "30",
+            "count": "41"
+          },
+          {
+            "item": "70",
+            "count": "41"
+          },
+          {
+            "item": "74",
+            "count": "41"
+          }
+        ],
+        "smallest": "0",
+        "count": "11088",
+        "cardinality": "11088"
+      },
+      "format": {
+        "decimalSeparator": ".",
+        "groupSeparator": ","
+      }
+    },
+    {
+      "id": 631962128,
+      "name": "footnote",
+      "dataTypeName": "text",
+      "description": "Suppressed counts (1-9)",
+      "fieldName": "footnote",
+      "position": 9,
+      "renderTypeName": "text",
+      "tableColumnId": 152205309,
+      "cachedContents": {
+        "non_null": "463",
+        "largest": "Death counts between 1-9 are suppressed.",
+        "null": "10625",
+        "top": [
+          {
+            "item": "Death counts between 1-9 are suppressed.",
+            "count": "463"
+          }
+        ],
+        "smallest": "Death counts between 1-9 are suppressed.",
+        "count": "11088",
+        "cardinality": "11088"
+      },
+      "format": {}
+    }
+  ],
+  "grants": [
+    {
+      "inherited": false,
+      "type": "viewer",
+      "flags": [
+        "public"
+      ]
+    }
+  ],
+  "license": {
+    "name": "Public Domain U.S. Government",
+    "termsLink": "https://www.usa.gov/government-works"
+  },
+  "metadata": {
+    "custom_fields": {
+      "Data Quality": {
+        "Suggested Citation": "Ahmad FB, Cisewski JA, Garnett M. Provisional drug overdose death counts by specific drugs. National Center for Health Statistics. [year]. DOI: https://dx.doi.org/10.15620/cdc/20250305010"
+      },
+      "Common Core": {
+        "Contact Email": "cdcinfo@cdc.gov",
+        "Homepage": "https://www.cdc.gov/nchs/nvss/vsrr/provisional-drug-overdose.htm",
+        "Contact Name": "National Center for Health Statistics",
+        "Issued": "2024-04-15",
+        "Update Frequency": "R/P6M",
+        "Temporal Applicability": "2019-01-01/2026-03-01",
+        "Program Code": "009:020",
+        "Geographic Coverage": "United States",
+        "Publisher": "National Center for Health Statistics",
+        "Bureau Code": "009:20",
+        "Public Access Level": "public"
+      },
+      "Common Core 3": {
+        "Contact Email": "cdcinfo@cdc.gov",
+        "Geographic Name": "United States",
+        "Contact Name": "National Center for Health Statistics",
+        "Update Frequency": "R/P6M",
+        "Temporal Applicability": "2019-01-01/2026-03-01",
+        "Program Code": "009:020",
+        "Restriction Status": "public",
+        "Publisher": "National Center for Health Statistics",
+        "Bureau Code": "009:20",
+        "Public Access Level": "public"
+      }
+    },
+    "rowLabel": "Counts of drug overdose deaths by specific drug, jurisdiction of occurrence, and month/year of death",
+    "availableDisplayTypes": [
+      "table",
+      "fatrow",
+      "page"
+    ]
+  },
+  "owner": {
+    "id": "8ker-cpx6",
+    "displayName": "NCHS",
+    "screenName": "NCHS",
+    "type": "interactive",
+    "flags": [
+      "acceptedEula",
+      "mayBeStoriesCoOwner"
+    ]
+  },
+  "query": {},
+  "rights": [
+    "read"
+  ],
+  "tableAuthor": {
+    "id": "8ker-cpx6",
+    "displayName": "NCHS",
+    "screenName": "NCHS",
+    "type": "interactive",
+    "flags": [
+      "acceptedEula",
+      "mayBeStoriesCoOwner"
+    ]
+  },
+  "tags": [
+    "nchs",
+    "nvss",
+    "vsrr",
+    "provisional",
+    "deaths",
+    "mortality",
+    "drug overdose",
+    "united states",
+    "hhs region"
+  ],
+  "flags": [
+    "default",
+    "ownerMayBeContacted",
+    "restorable",
+    "restorePossibleForType"
+  ]
+}

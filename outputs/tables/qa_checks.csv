@@ -1,0 +1,8 @@
+check,observed,expected,passed
+row_count,11088,11088,True
+unique_grain,0,0,True
+jurisdictions,11,11,True
+drug_categories,12,12,True
+complete_month_sequence,84,84,True
+one_data_as_of_date,1,1,True
+nonnegative_counts,1,1,True

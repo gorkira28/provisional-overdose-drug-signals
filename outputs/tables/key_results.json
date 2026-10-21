@@ -1,0 +1,20 @@
+{
+  "data_as_of": "2026-07-05",
+  "latest_period_ending": "2025-12-31",
+  "previous_period_ending": "2024-12-31",
+  "rows": 11088,
+  "jurisdictions": 11,
+  "drug_categories": 12,
+  "available_counts": 10625,
+  "available_percent": 95.82431457431457,
+  "available_percent_wilson_ci": [
+    95.43584459905368,
+    96.1810437027822
+  ],
+  "largest_latest_national_count_drug": "Fentanyl",
+  "largest_latest_national_count": 36627,
+  "largest_yoy_decline_drug": "Xylazine",
+  "largest_yoy_decline_percent": -59.35504992633819,
+  "largest_yoy_increase_drug": "Ketamine",
+  "largest_yoy_increase_percent": 16.847826086956523
+}
